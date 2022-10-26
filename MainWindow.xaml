@@ -1,0 +1,21 @@
+﻿<Window x:Class="examen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:examen"
+        mc:Ignorable="d"
+        Title="Examne practico" Height="600" Width="800">
+    <Grid>
+    <TextBlock HorizontalAlignment="Center" FontSize="50">
+    Examen Practico:
+    </TextBlock>
+
+
+    <StackPanel>
+            <TextBox x:Name="txtmicaja" Height="400" Width="400" Margin="10"> </TextBox>  
+           
+            <Button x:Name="btnObtener" HorizontalAlignment="Center"  Width="40" MouseLeave="btnObtener_MouseLeave" MouseEnter="btnObtener_MouseEnter" Click="button_Click"> Obtener Api</Button>
+    </StackPanel>
+    </Grid>
+</Window>
